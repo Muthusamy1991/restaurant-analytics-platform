@@ -1,0 +1,44 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.testing
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.testing
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Build output
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/coverage/
+
+# Laravel runtime files
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Local databases and logs
+*.sqlite
+*.sqlite3
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test and temporary output
+.phpunit.cache/

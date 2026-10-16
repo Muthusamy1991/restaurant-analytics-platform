@@ -34,5 +34,9 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'analytics' => [
+        'endpoint' => env('ANALYTICS_ENDPOINT', 'http://127.0.0.1:8000'),
+        'server_key' => env('ANALYTICS_SERVER_KEY'),
+    ],
 
 ];
